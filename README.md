@@ -12,15 +12,15 @@ This data gives us the set of Generic and Specific Boundaries for each class (if
 ## Decision Tree learning for dataset-adult
 
 ### Results
-	   			 | Accuracy	 | Precision	 | Recall	 | F-Measure	 | Run-Time
--------------------------------- | ------------- | ------------- | ------------- | ------------- | ------------
-ID3				 | 0.8103925	 | 0.5974326	 | 0.6050442	 | 0.60121435	 | 93 secs
-Random Forest(with 10 trees)	 | 0.8108839	 | 0.596381	 | 0.6170047	 | 0.60651755	 | 3 secs
-Random Forest (with 50 trees)	 | 0.82722193	 | 0.6373305	 | 0.62324494	 | 0.63020897	 | 15 secs
-Random Forest (with 100 trees)	 | 0.8296173	 | 0.6395107	 | 0.63884556	 | 0.6391779	 | 33 secs
-Pruned Tree (1 node pruned)	 | 0.82396656	 | 0.6394422	 | 0.58424336	 |  0.61059785	 | 426 secs
-Pruned Tree (2 nodes pruned)	 | 0.83090717	 | 0.66231066	 | 0.5798232	 | 0.618328	 | 809 secs
-Pruned Tree (3 nodes pruned)	 | 0.8332412	 | 0.68608093	 | 0.5421217	 | 0.6056645	 | 1041 secs
+Technique    			 | Accuracy	 | Precision	 | Recall	 | F-Measure	 | Run-Time |
+-------------------------------- | ------------- | ------------- | ------------- | ------------- | ------------ |
+ID3				 | 0.8103925	 | 0.5974326	 | 0.6050442	 | 0.60121435	 | 93 secs | 
+Random Forest(with 10 trees)	 | 0.8108839	 | 0.596381	 | 0.6170047	 | 0.60651755	 | 3 secs |
+Random Forest (with 50 trees)	 | 0.82722193	 | 0.6373305	 | 0.62324494	 | 0.63020897	 | 15 secs |
+Random Forest (with 100 trees)	 | 0.8296173	 | 0.6395107	 | 0.63884556	 | 0.6391779	 | 33 secs |
+Pruned Tree (1 node pruned)	 | 0.82396656	 | 0.6394422	 | 0.58424336	 |  0.61059785	 | 426 secs |
+Pruned Tree (2 nodes pruned)	 | 0.83090717	 | 0.66231066	 | 0.5798232	 | 0.618328	 | 809 secs |
+Pruned Tree (3 nodes pruned)	 | 0.8332412	 | 0.68608093	 | 0.5421217	 | 0.6056645	 | 1041 secs |
 					
 
 ### Interpretation of results
